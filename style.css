@@ -1,0 +1,599 @@
+ul {
+  list-style-type:none;
+  overflow:hidden;
+  padding:1em;
+  text-align:center; 
+  width: fit-content;
+  margin: 0 auto;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  background-color: rgb(98, 34, 34);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5000;
+  overflow:hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #E29578;
+}
+
+#background{
+  position: fixed;
+  justify-content: center;
+  width: 100%;
+  height: 100%; 
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  filter: brightness(58%);
+}
+
+.header {
+  height: 1000px;
+  top:0;
+}
+
+.header h1{
+  color: white;
+  font-size: 4.5em;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 800;
+  margin: auto 14%;
+  letter-spacing: 0.1em;
+  transform: translateY(215%);
+}
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 0; 
+  box-sizing: border-box; 
+  margin: 0 auto; 
+  padding-top: 85px;
+}
+
+h1,h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-align: center; 
+  border: 0; 
+  margin: auto;
+}
+
+h1 { 
+  font-size: 3.5em;
+}
+
+h2{
+  font-size: 2.4em; 
+}
+
+h3 {
+  color: rgb(44, 42, 42);
+  font-size: 1.8em;
+}
+
+p{
+  font-size: 1.05em;
+  line-height: 1.3;
+}
+
+.normal{
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  width: 75%;
+  /* font-weight: 550; */
+  font-size: 1.2em;
+  text-align:center;
+  line-height: 1.55;
+}
+
+/* typewriter effect */
+.intro{
+  display: inline; 
+}
+
+.typewriter{
+  display: inline;
+}
+
+.typewriter:after{
+  content: "!";
+  width: 1px;
+  height: 5%;
+  border-right: 2px solid black; 
+  animation: blink 1s infinite ease; 
+}
+
+/* specifies animation code*/
+@keyframes blink{
+  0%{
+    opacity: 0; 
+  }
+  100%{
+    opacity: 1; 
+  }
+}
+
+.subtitle1 {
+  /* position: relative; */
+  text-align: center;
+  font-size: 28px;
+  font-weight: 550;
+  font-family: 'Raleway', sans-serif;
+  height: auto;
+  color: white; 
+  background-color: #f59b7a;
+  padding: 30px 0px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius:20px;
+}
+
+
+.indexbox {
+  background: rgb(225, 240, 240);
+  margin: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.indexbox p {
+  margin: 30px 64px 64px 64px;
+  color: rgb(0, 0, 0);
+  font-weight: 350;
+}
+
+.indexbox h3{  
+  margin: 40px 64px 64px 64px;
+  font-weight: 650;
+  font-size: 1.9em;
+  text-align: center; 
+}
+
+.headerblue{
+  font-family: 'Raleway', sans-serif;
+  margin: 1em 20%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.7em;
+  color: white; 
+  border-radius:16px;
+  background-color: #83C5BE;
+}
+
+.headingbenefits {
+  background-image: linear-gradient(rgba(87, 80, 78, 0.575),rgba(212, 206, 204, 0.486)), url("https://images.pexels.com/photos/42408/pexels-photo-42408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: 550px;
+  font-size: 3.5em;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.introtext{
+  font-weight: 550;
+  font-size: 1.2em;
+  text-align: center; 
+  margin: auto 18%;
+
+}
+
+.text {
+  margin: auto 17%;
+  font-weight: 350;
+  padding-bottom: 35px;
+}
+
+#textimage{
+  object-fit: cover;
+  width: 50%;
+  height: 300px;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.headingmain {
+  background-image: linear-gradient(rgba(87, 80, 78, 0.575),rgba(212, 206, 204, 0.486)), url("https://pilotteacher.com/wp-content/uploads/2020/11/Crane-Water-Dropping.jpg");
+  height: 550px;
+  font-size: 3.5em;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+.headingsafety {
+  background-image: linear-gradient(rgba(87, 80, 78, 0.575),rgba(212, 206, 204, 0.486)), url("https://media.istockphoto.com/id/1276903283/photo/helicopter-water-drop-on-california-wildfire.jpg?s=612x612&w=0&k=20&c=KiO1ckRMWsBdmuHdE0pUtldl3VI_NehoTAfMJ-0t6Rw=");
+  height: 550px;
+  font-size: 3.5em;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+
+.headingstats {
+  background-image: linear-gradient(rgba(87, 80, 78, 0.575),rgba(212, 206, 204, 0.486)), url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iv9AfDI_93I0/v2/1200x-1.jpg");
+  height: 550px;
+  font-size: 3.5em;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+
+.headingmore {
+  background-image: linear-gradient(rgba(87, 80, 78, 0.575),rgba(212, 206, 204, 0.486)), url("https://images.pexels.com/photos/4103247/pexels-photo-4103247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: 550px;
+  font-size: 3.5em;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+/*back to top button*/
+  #myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: none;
+    right: 46%;
+    max-width: 100px;
+    width: 100%;
+    text-underline-position: none;
+    font-size: 18px;
+    background-color: rgb(98, 34, 34);
+    padding: 1.5px;
+    border: none;
+    border-radius: 8px;
+    z-index: 99;
+  }
+
+/*button text*/
+  a{
+    color:white;
+    font-family: 'Raleway';
+  }
+
+/*button hover changes*/
+  #myBtn:hover {
+      background-color: #E29578;
+      text-decoration: none;
+  }
+
+iframe{
+  display: block;
+  margin: 1em auto; 
+}
+
+/*buttonflip*/
+.button-container{
+   display:inline-block;
+   align-items: center;
+   justify-content: center;
+  margin-top:4.675%;
+  margin-left:0%;
+   height: 55vh;
+   width: 30%; 
+   perspective: 500px;
+   .button-flipper{
+     margin-left:10%;
+     margin-right:10%; 
+      transition: .8s cubic-bezier(.775, .07, .575, .995);
+      align-items: center;
+      justify-content: center;
+      transform-style: preserve-3d;
+      position: absolute;
+      &:hover{
+         transform: rotateX(180deg);
+      }
+     
+   }
+   .front-button{
+     
+      cursor: pointer;
+      width: 400px;
+      height:400px;
+      background-color: #46d257;
+      border: none;
+      font-size: 2em;
+      font-family: 'Raleway', sans-serif;
+      color: #fff;
+      backface-visibility: hidden;
+      z-index: 2;
+      transform: rotateX(0deg);
+      position: static;
+      box-shadow: 0px 8px 12px #ccc;
+      clip-path: polygon(51% 1%, 31% 19%, 39% 22%, 16% 44%, 31% 53%, 0% 85%, 41% 83%, 43% 99%, 59% 99%, 61% 83%, 99% 84%, 69% 53%, 86% 45%, 63% 21%, 70% 18%);
+     /*obtained from https://bennettfeely.com/clippy/ */
+   }
+   .back-button{
+      cursor: pointer;
+      width: 400px;
+      height:400px;
+      background-color: #36140e;
+      border: none;
+      font-size: 1em;
+      font-family: 'Raleway', sans-serif;
+      color: #fff;
+      backface-visibility: hidden;
+      transform: rotateX(-180deg);
+      position: relative;
+      box-shadow: 0px 8px 12px #ccc;
+      clip-path: polygon(51% 1%, 31% 19%, 39% 22%, 16% 44%, 31% 53%, 0% 85%, 41% 83%, 43% 99%, 59% 99%, 61% 83%, 99% 84%, 69% 53%, 86% 45%, 63% 21%, 70% 18%);
+     /*obtained from https://bennettfeely.com/clippy/ */
+   }
+}
+
+.big-button-container{
+  display:flex;
+  justify-content:center;
+}
+
+.Bottombar {
+  background-color: #36140e;
+  position: static;
+  bottom: 0px;
+  height: 20px;
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  padding: 35px;
+  padding-bottom:120px;
+  color: white;
+  z-index:-1;
+}
+.contact{
+  display:inline-block;
+  float:left;
+  margin-left: 30px;
+  margin-top:20px;
+}
+.social{
+  display:inline-block;
+  float: right;
+  margin-right: 75px;
+}
+
+.hline{
+  width: 70%;
+  background-color: #36140e;
+  height: 0.2%;
+  line-height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+body {
+  margin: 0;
+  font-family:Helvetica,Sans-serif;
+  overflow-x:hidden;
+}
+h1 {
+  text-align:center;
+}
+.page {
+  width:100vw;
+  height:150vh;
+  perspective:1px;
+  perspective-origin: center center;
+  overflow-x:hidden;
+}
+.overflow {
+  position:absolute;
+  width:100vw;
+  height:30vh;
+  top:130vh;
+  background-color:#FFF;
+}
+#parallax {
+  transform-style: preserve-3d;
+  height:150vh;
+}
+
+.keyart_layer {
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: repeat-x;
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+#keyart-0 {
+  background-image: url('https://cdn.discordapp.com/attachments/1030721796930031722/1124575786649784400/fire.png');
+  transform:translate3d(-11px,0px,-1.3px) scale(2.3);
+}
+#keyart-1 {
+  background-image: url('https://cdn.discordapp.com/attachments/1030721796930031722/1124775403253415986/fire5.png');
+  transform:translate3d(0,-47px,-.7px) scale(1.9);
+}
+#keyart-2 {
+  background-image: url('https://cdn.discordapp.com/attachments/1030721796930031722/1124775038244102254/fire4.png');
+  transform:translate3d(0,105px,-.4px) scale(1.4);
+}
+#keyart-3 {
+  background-image: url('https://cdn.discordapp.com/attachments/1030721796930031722/1124776194282364989/fire7.png');
+  transform:translate3d(0,-2px,-.2px) scale(1.6);
+}
+#keyart-4 {
+  background-image: url('https://cdn.discordapp.com/attachments/1030721796930031722/1124565472768172132/fire2.png');
+  transform:translate3d(0,0px,.1px) scale(0.7);
+}
+#keyart-5 {
+  background-image: url('https://cdn.discordapp.com/attachments/1030721796930031722/1124577152994644008/fire1.png');
+  transform:translate3d(0,-104px,.2px) scale(0.8);
+}
+
+#keyart-6 {
+  background-image: url('https://cdn.discordapp.com/attachments/1030721796930031722/1124608021088182312/fire3.png');
+  transform:translate3d(0,0px,.1px) scale(0.5);
+}
+#keyart-7 {
+  background-image: url('https://cdn.discordapp.com/attachments/1030721796930031722/1124608175686033419/fire3.png');
+  transform:translate3d(0,0px,.1px) scale(0.5);
+}
+#keyart-8 {
+  background-image: url('https://cdn.discordapp.com/attachments/1030721796930031722/1124608291453022208/fire3.png');
+  transform:translate3d(0,0px,.1px) scale(0.5);
+}
+
+
+
+.spacing{
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  text-align:center;
+  display:inline-block;
+  vertical-align: middle;
+  
+}
+
+.styled-table thead tr {
+    background-color: #622222;
+    color: #ffffff;
+    text-align: center;
+  border-radius: 100px;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #622222;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #622222;
+}
+.SpreadSheet{
+  display:flex;
+  justify-content: center;
+}
+
+.fires{
+  display:flex;
+  justify-content: center;
+}
+.fireimages{
+  margin-left:10.5%;
+  margin-right:10.5%;
+}
+
+.textRow{
+  display:flex;
+  justify-content: center;
+}
+
+.textbox{
+  margin-left:2.75%;
+  margin-right:2.75%;
+  font-family: 'Raleway', sans-serif;
+  width:20%
+}
+
+.pointgraph{
+  display:flex;
+  justify-content: center;
+  margin-left:15%;
+  margin-right:15%;
+}
